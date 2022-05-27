@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995286541207",
+    "project_id": "goodtech1-93b2d",
+    "storage_bucket": "goodtech1-93b2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995286541207:android:e7fb713d0b9ef8934a5ad2",
+        "android_client_info": {
+          "package_name": "com.goodfoodthai888.goodtech1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995286541207-bp5h5184jrpmk5lm4vq6aarg17pfkfa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIEKHvm_0yyoMGLZoiRXOvyfyHxOY1-0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995286541207-bp5h5184jrpmk5lm4vq6aarg17pfkfa6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
