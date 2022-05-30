@@ -1,22 +1,29 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_list.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import 'package:goodtech1/utility/my_style.dart';
 
 class Authen extends StatefulWidget {
-  const Authen({Key? key}) : super(key: key);
-  @override
+  const Authen({Set? key}) : super(key: key);
   State<Authen> createState() => _AuthenState();
+}
+
+class State {
+}
+
+class StatefulWidget {
 }
 
 class _AuthenState extends State<Authen> {
   late double screenWidth, screenHeight;
   bool redEye = true;
 
-  @override
   Widget build(BuildContext context) {
     screenWidth = MediaQuery.of(context).size.width;
     screenHeight = MediaQuery.of(context).size.height;
+    var center;
     return Scaffold(
       floatingActionButton: buildCreateAccount(),
       body: SafeArea(
@@ -28,9 +35,9 @@ class _AuthenState extends State<Authen> {
               left: 16,
               child: buildLogo(),
             ),
-            Center(
+            Positioned(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   buildUser(),
                   buildPassword(),
@@ -179,4 +186,37 @@ class _AuthenState extends State<Authen> {
       child: MyStyle().showLogo(),
     );
   }
+
+  MyStyle() {}
+}
+
+class MainAxisAlignment {
+}
+
+class SafeArea {
+}
+
+class Positioned {
+}
+
+class Column {
+}
+
+class Stack {
+}
+
+class Scaffold {
+}
+
+mixin Widget {
+}
+
+class MediaQuery {
+  static of(BuildContext context) {}
+}
+
+class BuildContext {
+}
+
+class SizedBox {
 }
